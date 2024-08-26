@@ -16,13 +16,14 @@
 - **Firebase Auth**: Provides authentication for secure user access.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
-## Screenshots
+## Demo
 
-![MoodJourney Home](./screenshots/home.png)
-*Screenshot of the MoodJourney homepage.*
+![Screenshot (116)](https://github.com/user-attachments/assets/d82017c2-e076-4418-917b-4e3fc0ff3f36)
 
-![Mood Tracking](./screenshots/mood-tracking.png)
-*Screenshot of the mood tracking interface.*
+![Screenshot (117)](https://github.com/user-attachments/assets/0e9d5a88-5168-4653-92a4-175c6eada05f)
+
+![Screenshot (114)](https://github.com/user-attachments/assets/23f025a3-ebaf-479b-9a73-aa358057c801)
+
 
 ## Getting Started
 
