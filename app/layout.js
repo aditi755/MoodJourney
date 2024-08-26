@@ -1,22 +1,23 @@
 import { Fugaz_One, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Logout from "@/components/Logout";
 import { AuthProvider } from "@/context/AuthContext";
 const Opensans = Open_Sans({ subsets: ["latin"] });
 const fugaz = Fugaz_One({ subsets: ["latin"] , weight: ['400']})
-
+import Head from "./head";
 export const metadata = {
-  title: "Broodl",
+  title: "MoodJourney",
   description: "Track your daily mood everu day of the year",
 };
 
 export default function RootLayout({ children }) {
   const header = (
-    <Link href={'/dashboard'}>
+    <Link href={'/'}>
     <header className="p-4 sm:p-8 flex items-center justify-between gap-4">
-    <h1 className={'text-base sm:text-lg textGradient ' + fugaz.className}>Broodl</h1> 
+    <h1 className={'text-base sm:text-lg textGradient ' + fugaz.className}>MoodJourney</h1> 
  <div className="flex items-center justify-between">
-  placeholder
+  <Logout />
   </div>
   </header>
     </Link>
