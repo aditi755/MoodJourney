@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fugaz_One } from 'next/font/google'
-import { gradients, baseRating } from '@/utils/gradients'
+import { gradients, baseRating } from '@/utils/index'
 const months = { 'january': 'Jan', 'February': 'Feb', 'March': 'Mar', 'April': 'Apr', 'May': 'May', 'June': 'Jun', 'July': 'Jul', 'August': 'Aug', 'September': 'Sept', 'October': 'Oct', 'November': 'Nov', 'December': 'Dec'}
 const monthsArr = Object.keys(months)
 const now = new Date()
