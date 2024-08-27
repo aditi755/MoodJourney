@@ -15,6 +15,7 @@
 - **Firebase**: Used for the database to store user mood data.
 - **Firebase Auth**: Provides authentication for secure user access.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Context API**: Used for global state management.
 
 ## Demo
 
